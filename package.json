@@ -7,6 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
+    "lint": "echo \"Lint placeholder (enable ESLint later)\"",
+    "typecheck": "tsc --noEmit",
     "assets": "node scripts/generate-assets.js --src ./assets/source/icon-1024.png --out ./assets/generated"
   },
   "dependencies": {
